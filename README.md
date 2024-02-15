@@ -61,7 +61,7 @@ Les livrables attendus sont :
 
 ➕ (Bonus) Si le temps le permet, proposer une maquette ou un prototype de la page de connexion serait un plus !
 
-
+Figma : https://www.figma.com/file/bhZCEih65NI0BxGYOArRXp/Bankenstein?type=design&node-id=0%3A1&mode=design&t=lBeq1uMdVWFI8RMY-1
 ---
 
 ## Quelques conseils
