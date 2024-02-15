@@ -1,0 +1,42 @@
+@startuml 'Bankenstein Application Use Case Diagram'
+left to right direction
+
+!define ACTOR(x) actor x as "x"
+!define USECASE(x, y) usecase x as "y"
+
+' Actors '
+ACTOR(Client)
+
+' Use Cases '
+package BankensteinApp_Phase1 {
+USECASE(UC1, "Se connecter à son compte utilisateur")
+USECASE(UC2, "Avoir un message d’accueil sur la page d’accueil")
+USECASE(UC3, "Voir ses comptes")
+USECASE(UC4, "Voir le détail d’un compte")
+USECASE(UC5, "Éditer un RIB depuis le détail d’un compte")
+USECASE(UC6, "Faire un virement à un bénéficiaire")
+USECASE(UC7, "Ajouter un bénéficiaire grâce à son IBAN")
+USECASE(UC8, "Option mode sombre dans les paramètres de l’application")
+USECASE(UC9, "Déconnexion depuis les paramètres de l’application")
+}
+
+package BankensteinApp_Phase2 {
+USECASE(UC10, "Changer de langue depuis les paramètres de l’application")
+USECASE(UC11, "Avoir un récap des 3 dernières transactions sur la page d’accueil")
+USECASE(UC12, "Possibilité d'éditer un RIB depuis la page d'accueil")
+}
+
+' Relationships '
+Client --> UC1
+Client --> UC2
+Client --> UC3
+Client --> UC4
+Client --> UC5
+Client --> UC6
+Client --> UC7
+Client --> UC8
+Client --> UC9
+Client --> UC10
+Client --> UC11
+Client --> UC12
+@enduml
